@@ -72,9 +72,9 @@ x.reverse()
 print(x)
 ```
 
-**sort** -> sort the list in place.
-Note:
-sorted(x) returns a new sorted list without changing the original list x.
+**sort** -> sort the list in place.\n
+Note:\n
+sorted(x) returns a new sorted list without changing the original list x.\n
 x.sort() puts the items of x in sorted order (sorts in place).
 ```
 x = [5, 3, 8, 6]
