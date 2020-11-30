@@ -49,3 +49,43 @@ print(x)
 x.insert(1, ['a', 'm']
 print(x)
 ```
+
+**pop** -> pops last item off list and returns item
+```
+x = [5, 3, 8, 6]
+x.pop()
+print(x)
+print(x.pop())
+```
+
+**remove** -> remove first instance of an item
+```
+x = [5, 3, 8, 6, 3]
+x.remove(3)
+print(x)
+```
+
+**reverse** -> reverse the order of the list. It is an in-place sort, meaning it changes the original list.
+```
+x = [5, 3, 8, 6]
+x.reverse()
+print(x)
+```
+
+**sort** -> sort the list in place.
+Note:
+sorted(x) returns a new sorted list without changing the original list x.
+x.sort() puts the items of x in sorted order (sorts in place).
+```
+x = [5, 3, 8, 6]
+x.sort()
+print(x)
+```
+
+**reverse sort** -> sort items descending.
+Use reverse=True parameter to the sort function.
+```
+x = [5, 3, 8, 6]
+x.sort(reverse=True)
+print(x)
+```
