@@ -1,2 +1,2 @@
 ### Stacks
-![Stacks Reference Image] (./stacks.png)
+![Stacks Reference Image] (stacks.png)
