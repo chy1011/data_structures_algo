@@ -58,7 +58,7 @@ class MaxHeap:
         self.heap = [0]
         for item in items:
             self.heap.append(item)
-            self.floatUp(len(self,heap) - 1)
+            self.floatUp(len(self.heap) - 1)
 
     def push(self, data):
         self.heap.append(data)
